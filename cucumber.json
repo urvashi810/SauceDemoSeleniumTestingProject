@@ -1,0 +1,301 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-31T06:24:07.134Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2562000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login as standard user and place the products in the cart",
+        "description": "",
+        "id": "placing-the-items-in-cart-with-diferent-user;login-as-standard-user-and-place-the-products-in-the-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5500000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Login as Standard user with \"standard_user_name\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user_name\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.LoginPage_glue.login_to_the_home_page_standard(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5521000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Place the three items in the cart",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.selectitems()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on the cart icon",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.clickcart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1772000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the items and click on checkout button",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.click_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8775000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "provide the details and click on Finish to complete",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.complete_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1932000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "continue to home screen",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.back_home_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7170000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Add the product to the cart and remove the product from the cart",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.add_remove()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3650000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Logout from the application as the standard user",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-31T06:24:44.601Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1746000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.openBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Login as performance user and place the products in the cart",
+        "description": "",
+        "id": "placing-the-items-in-cart-with-diferent-user;login-as-performance-user-and-place-the-products-in-the-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10495000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Login as performance user with \"performance_user_name\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_user_name\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinition.LoginPage_glue.login_to_the_home_page_performance(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5369000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Place the three items in the cart",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.selectitems()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on the cart icon",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.clickcart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1769000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify the items and click on checkout button",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.click_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8927000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "provide the details and click on Finish to complete",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.complete_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7082000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "continue to home screen",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.back_home_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12266000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Add the product to the cart and remove the product from the cart",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.add_remove()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3570000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Logout from the application as the standard user",
+            "match": {
+              "location": "stepDefinition.LoginPage_glue.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Placing the items in cart with diferent user",
+    "description": "",
+    "id": "placing-the-items-in-cart-with-diferent-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/PlacingInCart.feature",
+    "tags": []
+  }
+]
